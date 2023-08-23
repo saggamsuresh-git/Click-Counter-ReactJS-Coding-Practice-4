@@ -1,0 +1,43 @@
+/* Write your CSS here */
+.bg-container {
+  /* text-align: center; */
+  background-color: #f1f5f8;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* align-self: center; */
+  height: 100vh;
+  color: #2d3a35;
+}
+.description {
+  font-size: 25px;
+}
+
+.heading {
+  font-size: 45px;
+  width: 600px;
+  text-align: center;
+}
+.clickCount {
+  color: #c20a72;
+}
+
+.button {
+  background-color: #007bff;
+  height: 40px;
+  width: 100px;
+  color: #ffffff;
+  border-radius: 8px;
+  border-style: none;
+}
+
+@media (max-width: 768px) {
+  .heading {
+    font-size: 20px;
+    width: 280px;
+  }
+  .description {
+    font-size: 14px;
+  }
+}
